@@ -27,7 +27,7 @@ function App() {
             {portfolioData.projects.map((project, index) => (
               <motion.div
                 key={index}
-                className="bg-gray-800 p-4 rounded-lg shadow-lg"
+                className="bg-gray-800 bg-opacity-70 p-4 rounded-lg shadow-lg"
                 whileHover={{ scale: 1.05 }}
               >
                 <h3 className="text-xl font-semibold">{project.title}</h3>
