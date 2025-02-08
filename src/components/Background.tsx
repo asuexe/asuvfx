@@ -46,7 +46,7 @@ export const FallingLetters = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 z-0 bg-black overflow-hidden">
+    <div className="absolute inset-0 z-0 bg-black overflow-hidden scrollbar-hide">
       <AnimatePresence>
         {letters.map(({ id, letter, x, delay }) => (
           <motion.span
