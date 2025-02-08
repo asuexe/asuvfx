@@ -6,7 +6,6 @@ import { FallingLetters } from "./components/Background";
 import profilePic from "./assets/1706681387021.jpeg";
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
-import { loop } from "three/tsl";
 
 function App() {
   const controls = useAnimation();
