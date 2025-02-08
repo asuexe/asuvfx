@@ -30,7 +30,7 @@ function App() {
   }, [isPaused, controls]);
 
   return (
-    <div className="relative w-screen min-h-screen bg-black overflow-x-hidden scrollbar-hide">
+    <div className="relative w-screen min-h-screen bg-black overflow-x-hidden">
       <FallingLetters />
 
       <div className="relative z-9 min-h-screen text-white p-6">
