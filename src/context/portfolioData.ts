@@ -14,6 +14,21 @@ export const portfolioData = {
         description: "A basic chat environment with upvoting functionality.",
         link: "https://github.com/asuexe/ChatRoom",
       },
+      {
+        title: "Macro-Molecular type prediction",
+        description: "A machine learning model which has accuracy of 97% in predicting type of molecules based on their sequence and residue count..",
+        link: "https://github.com/asuexe/DjangoMLproject",
+      },
+      {
+        title: "Astronaut Task scheduler",
+        description: "BAsic Functionalities like add, edit, remove tasks with reminders.",
+        link: "https://github.com/asuexe/ChatRoom",
+      },
+      {
+        title: "Job description Generator",
+        description: "Using LLM model gives JD with simple prompt..",
+        link: "https://github.com/asuexe/JD-Model",
+      }
     ],
     skills: ["React", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB"],
     contact: {
