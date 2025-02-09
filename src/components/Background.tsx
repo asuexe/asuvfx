@@ -52,7 +52,7 @@ export const FallingLetters = () => {
           <motion.span
             key={id}
             initial={{ y: -50, opacity: 0 }}
-            animate={{ y: "120vh", opacity: 1 }}
+            animate={{ y: "150vh", opacity: 1 }}
             exit={{ opacity: 0 }} // Disappear on exit
             transition={{
               duration: 6,
